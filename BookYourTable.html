@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+<TITLE>BookYourTable page</TITLE>
+<BASE href="c:/restaurants/">
+<STYLE>
+body{
+background-color:yellow;
+}
+.autostyle2
+{
+color:red;
+font-size:20px;
+text-align:center;
+}
+footer{
+background-color:grey;
+padding:10px;
+color:white;
+}
+</STYLE>
+</HEAD>
+<BODY>
+<FORM action="BookYourTable.html">
+<TABLE>
+<TR class="autostyle2">
+<TD colspan="2">Book Your Table</TD></TR>
+<TR>
+<TD width="100%" COLSPAN="2">
+</TD>
+</TR>
+<TR>
+<TD><LABEL for="name">Name:</LABEL></TD>
+<TD><INPUT type="text" nameusrname" ID="name" placeholder="Enter your name" required></TD>
+</TR>
+
+<TR>
+<TD><LABEL for="date">Date:</LABEL></TD>
+<TD><INPUT type="date" name="date" ID="date"  required></TD>
+</TR>
+
+<TR>
+<TD><LABEL for="email">Email ID:</LABEL></TD>
+<TD><INPUT type="email" name="usrmail" ID="email" placeholder="Enter your email ID" required></TD>
+</TR>
+
+<TR>
+<TD><LABEL for="number">Contact Number:</LABEL></TD>
+<TD><INPUT type="tel" name="usrtel" ID="number"  placeholder="Enter your phone number" required></TD></TR>
+
+
+
+<TR>
+<TD><LABEL for="people">No.of People:</LABEL></TD>
+<TD><INPUT type="people" name="pe" ID="people"  placeholder="Enter the no.of people" required></TD></TR>
+
+<TR>
+<TD><LABEL for="branch">Branch:</LABEL></TD>
+<TD><INPUT list="br" name="brch" ID="branch">
+<DATALIST ID="br">
+<OPTION value="Guindy">
+<OPTION value="Adyar">
+<OPTION value="Mylapore">
+<OPTION value="Thiruvamiyur">
+<OPTION value="Perambur">
+</DATALIST><BR>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<BUTTON ID="button" type="submit"><P>Submit</P></BUTTON></TD><TD>
+<BUTTON type="reset"><P>Reset</P></BUTTON>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+
+<FOOTER>
+<P>Author:Lalita Jayaraman<BR>
+Contact:987654321<BR>
+Timings:10:00A.M to 10.00P.M
+</P>
+</FOOTER>
+</BODY>
+</HTML>
