@@ -1,0 +1,179 @@
+<HTML>
+<HEAD>
+<BASE href="c:/restaurants/">
+<STYLE>
+body{
+background-color:yellow;
+}
+img{
+float:right;
+}
+.autostyle2
+{
+color:red;
+font-size:20px;
+text-align:center;
+}
+footer{
+background-color:grey;
+padding:25px;
+color:white;
+}
+</STYLE>
+</HEAD>
+<FORM action="E-orders.html">
+<TABLE>
+<TR class="autostyle2">
+<TD colspan="2">Place An Order</TD></TR>
+<TR>
+<TD width="100%" COLSPAN="2">
+</TD>
+</TR>
+<img src="foodonline.jpg" width="500"  height="495">
+<TR>
+<TD><LABEL for="name">Name:</LABEL></TD>
+<TD><INPUT type="text" nameusrname" ID="name" placeholder="Enter your name" required></TD>
+</TR>
+<TR>
+<TD><LABEL for="date">Date:</LABEL></TD>
+<TD><INPUT type="date" name="date" ID="date"  required></TD>
+</TR>
+<TR>
+<TD><LABEL for="email">Email ID:</LABEL></TD>
+<TD><INPUT type="email" name="usrmail" ID="email" placeholder="Enter your email ID" required></TD>
+</TR>
+<TR>
+<TD><LABEL for="number">Contact Number:</LABEL></TD>
+<TD><INPUT type="tel" name="usrtel" ID="number"  placeholder="Enter your phone number" required></TD></TR>
+<TR><TD><LABEL for="food">Select Food:</LABEL></TD>
+<TD><LABEL for="nonveg">Non-vegetarian</LABEL>
+<INPUT type="radio" name="food" ID="nonveg">
+<LABEL for="veg">Vegetarian</LABEL>
+<INPUT type="radio"  name="food" ID="veg"></TD>
+</TR>
+
+<TR>
+<TD><LABEL for="soups">Soups:</LABEL></TD>
+<TD><SELECT>
+<OPTION value="opt1">Select the Soup of your choice</OPTION>
+<OPTION value="opt2">Basil Tomato Soup</OPTION>
+<OPTION value="opt3">Baby Corn Soup</OPTION>
+<OPTION value="opt4">Mexican Soup</OPTION>
+<OPTION value="opt5">Vegetable Manchow Soup</OPTION>
+<OPTION value="opt6">Turnip and Zucchini Soup</OPTION>
+</SELECT></TD>
+</TR>
+
+<TR>
+<TD><LABEL for="breakfast">Breakfast:</LABEL></TD>
+<TD><SELECT>
+<OPTION value="opt7">Select your Breakfast </OPTION>
+<OPTION value="opt8">Poha</OPTION>
+<OPTION value="opt9">Gobi ka Paratha</OPTION>
+<OPTION value="opt10">Chole Bhatura</OPTION>
+<OPTION value="opt11">Aloo Paratha</OPTION>
+<OPTION value="opt12">Paneer Paratha</OPTION>
+<OPTION value="opt13">Cheese Sandwich</OPTION>
+</SELECT></TD>
+</TR>
+
+<TR>
+<TD><LABEL for="lunch">Lunch:</LABEL></TD>
+<TD><SELECT>
+<OPTION value="opt14">Select the Lunch of your choice </OPTION>
+<OPTION value="opt15">Veg Briyani</OPTION>
+<OPTION value="opt16">Veg Fried Rice</OPTION>
+<OPTION value="opt17">Tehri Rice</OPTION>
+<OPTION value="opt18">Tawa Pulao</OPTION>
+<OPTION value="opt19">Matar Pulao</OPTION>
+<OPTION value="opt20">Capsicum Rice</OPTION>
+<OPTION value="opt21">Paneer Pulao</OPTION>
+</SELECT></TD>
+</TR>
+
+<TR>
+<TD><LABEL for="dishes">Dishes:</LABEL></TD>
+<TD><SELECT>
+<OPTION value="opt22">Select the Dishes of your choice </OPTION>
+<OPTION value="opt23">Paneer Butter Masala</OPTION>
+<OPTION value="opt24">Matar Paneer Masala</OPTION>
+<OPTION value="opt25">Pudina Palak Paneer</OPTION>
+<OPTION value="opt26">Channa Khurma</OPTION>
+<OPTION value="opt27">Paneer Makhani</OPTION>
+<OPTION value="opt28">Kadai Paneer</OPTION>
+<OPTION value="opt29">Paneer Capsicum</OPTION>
+</SELECT></TD>
+</TR>
+
+<TR>
+<TD><LABEL for="icecreams">Icecreams:</LABEL></TD>
+<TD><SELECT>
+<OPTION value="opt30">Select the Icecreams of your choice </OPTION>
+<OPTION value="opt31">Vanilla</OPTION>
+<OPTION value="opt32">Strawberry Yoghurt</OPTION>
+<OPTION value="opt33">Butterscotch Flavour</OPTION>
+<OPTION value="opt34">Pista Flavour</OPTION>
+<OPTION value="opt35">Mango Tango</OPTION>
+<OPTION value="opt36">Kulfi</OPTION>
+<OPTION value="opt37">Cassata</OPTION>
+</SELECT></TD>
+</TR>
+
+<TR>
+<TD><LABEL for="freshjuices">Fresh Juices:</LABEL></TD>
+<TD><SELECT>
+<OPTION value="opt38">Select the Fresh Juices</OPTION>
+<OPTION value="opt39">Apple Juice</OPTION>
+<OPTION value="opt40">Strawberry Juice</OPTION>
+<OPTION value="opt41">Sugarcane Juice</OPTION>
+<OPTION value="opt42">Grape Juice</OPTION>
+<OPTION value="opt43">Lime Juice</OPTION>
+<OPTION value="opt44">Orange Juice</OPTION>
+<OPTION value="opt45">Pomegranate Juice</OPTION>
+</SELECT></TD>
+</TR>
+
+<TR>
+<TD><LABEL for="Order For:">Order For:</LABEL></TD>
+<TD><LABEL for="pickup">Take Away</LABEL>
+<INPUT type="radio" name="pickup" ID="pickup">
+<LABEL for="home">Home Delivery</LABEL>
+<INPUT type="radio"  name="pickup" ID="home"></TD>
+</TR>
+
+<TR>
+<TD><LABEL for="Orderfor">Address:</LABEL></TD>
+<TD><TEXTAREA rows="5" cols="35" ID="Orderfor">
+Enter your Address Here
+</TEXTAREA>
+</TD>
+</TR>
+
+<TR>
+<TD><LABEL for="branch">Branch:</LABEL></TD>
+<TD><INPUT list="br" name="brch" ID="branch">
+<DATALIST ID="br">
+<OPTION value="Guindy">
+<OPTION value="Adyar">
+<OPTION value="Mylapore">
+<OPTION value="Thiruvamiyur">
+<OPTION value="Perambur">
+</DATALIST><BR>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<BUTTON ID="button" type="submit"><P>Submit</P></BUTTON></TD><TD>
+<BUTTON type="reset"><P>Reset</P></BUTTON>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+<FOOTER>
+<P>Author:Lalita Jayaraman<BR>
+Contact:987654321<BR>
+Timings:10:00A.M to 10.00P.M
+</FOOTER>
+</BODY>
+</HTML>
